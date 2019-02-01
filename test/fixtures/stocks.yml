@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  num_shares: 1
+  price: 1.5
+  cost: 1.5
+  commission: 1
+  order_type: MyString
+  date_time: MyString
+
+two:
+  num_shares: 1
+  price: 1.5
+  cost: 1.5
+  commission: 1
+  order_type: MyString
+  date_time: MyString

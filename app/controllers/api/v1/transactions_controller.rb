@@ -26,12 +26,11 @@ class Api::V1::TransactionsController < ApplicationController
   private
 
   def transaction_params
-    params.permit()
+    params.permit(:user_id, :stock_symbol, :num_shares, :price, :cost, :commission, :order_type, :date_time)
   end
 
   def find_transaction
     @transaction = Transaction.find(params[:id])
   end
 
-end
 end

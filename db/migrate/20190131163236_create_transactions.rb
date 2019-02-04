@@ -2,6 +2,7 @@ class CreateTransactions < ActiveRecord::Migration[5.2]
   def change
     create_table :transactions do |t|
       t.belongs_to :user, foreign_key: true
+      t.string :stock_symbol
       t.integer :num_shares
       t.float :price
       t.float :cost

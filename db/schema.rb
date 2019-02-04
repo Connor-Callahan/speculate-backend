@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 2019_01_31_163236) do
 
   create_table "transactions", force: :cascade do |t|
     t.bigint "user_id"
+    t.string "stock_symbol"
     t.integer "num_shares"
     t.float "price"
     t.float "cost"

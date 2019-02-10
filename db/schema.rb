@@ -34,9 +34,6 @@ ActiveRecord::Schema.define(version: 2019_01_31_163236) do
     t.string "last_name"
     t.string "username"
     t.string "password_digest"
-    t.integer "age"
-    t.integer "income"
-    t.string "job"
     t.integer "balance"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

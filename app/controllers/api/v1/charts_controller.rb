@@ -1,5 +1,5 @@
 class Api::V1::ChartsController < ApplicationController
-  before_action :find_chart, only: [:update, :show, :destroy]
+  before_action :find_chart, only: [ :show]
 
   def index
     @charts = Chart.all

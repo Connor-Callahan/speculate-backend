@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: one
+  balance: 1
+  date_time: MyString
+
+two:
+  user_id: two
+  balance: 1
+  date_time: MyString

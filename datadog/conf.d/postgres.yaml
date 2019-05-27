@@ -1,0 +1,14 @@
+init_config:
+
+instances: 
+-host: init_config:
+
+instances:
+  - host: localhost
+    port: 5432
+    username: datadog
+    password: dogpound
+    dbname: <YOUR DBNAME>
+    ssl: false
+
+collect_database_size_metrics: true

@@ -1,7 +1,7 @@
 init_config:
 
 instances:
-  - host: localhost
+  - host: heroku addons:create heroku-postgresql:standard-0
     port: 5432
     username: datadog
     password: pword

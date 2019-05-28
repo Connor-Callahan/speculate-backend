@@ -1,0 +1,9 @@
+init_config:
+
+instances:
+  - host: localhost
+    port: 5432
+    username: rhsihmuzhwygkj
+    password: b7b92b5497f9c1e12423a853237fddbee2de71833749dafcad82292467044170
+    tags:
+      - optional_tag

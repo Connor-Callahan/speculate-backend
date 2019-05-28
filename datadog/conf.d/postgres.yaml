@@ -3,7 +3,7 @@ init_config:
 instances:
 
   - host: localhost
-    port: 5432
+    port: 8125
     username: datadog
     password: pupnsuds
     ssl: false

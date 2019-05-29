@@ -7,3 +7,9 @@ instances:
     password: p74af94e1c73df49940333dab227b879a3f586c7a33db6adb9a8c477cdd638b47
     dbname: d9dmskv9bv4bs6
     ssl: true
+
+collect_activity_metrics: true
+
+collect_database_size_metrics: true
+
+relations: no

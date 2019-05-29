@@ -1,7 +1,9 @@
 init_config:
 
 instances:
-  - host: heroku addons:create heroku-postgresql:standard-0
+  - host: ec2-3-214-82-218.compute-1.amazonaws.com
     port: 5432
-    username: datadog
-    password: pword
+    username: u4jdc42vlgfqfl
+    password: p74af94e1c73df49940333dab227b879a3f586c7a33db6adb9a8c477cdd638b47
+    dbname: d9dmskv9bv4bs6
+    ssl: true

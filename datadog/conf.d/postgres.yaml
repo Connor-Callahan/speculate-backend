@@ -8,8 +8,5 @@ instances:
     dbname: d9dmskv9bv4bs6
     ssl: true
 
-collect_activity_metrics: true
-
-collect_database_size_metrics: true
-
-relations: no
+custom_metrics:
+  relation: true

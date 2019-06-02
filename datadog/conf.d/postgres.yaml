@@ -8,5 +8,10 @@ instances:
     dbname: d9dmskv9bv4bs6
     ssl: true
 
-custom_metrics:
-  relation: true
+relations:
+      - relation_name: users
+        schemas:
+            - has_many
+
+    relations:
+      - transactions

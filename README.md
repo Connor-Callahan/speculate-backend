@@ -1,3 +1,3 @@
 # Speculate Backend
 
-![speculate-venn](/assets/speculate-venn.png)
+<!-- ![speculate-venn](/assets/speculate-venn.png) -->
